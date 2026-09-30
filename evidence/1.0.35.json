@@ -1,0 +1,49 @@
+{
+  "version": "1.0.35",
+  "date": "2026-09-29",
+  "tests": {
+    "node_full": {
+      "passed": 611,
+      "failed": 0
+    },
+    "runtime_modules": 33,
+    "license_checks": true,
+    "packaged_auth": {
+      "passed": 7,
+      "failed": 0
+    },
+    "translation_and_formula_focused": {
+      "passed": 198,
+      "failed": 0
+    },
+    "formula_font_regression": true,
+    "immutable_math_ui": {
+      "text": "Xε,e = X2j,2n",
+      "nowrap": "nowrap",
+      "font": "\"Cambria Math\", \"STIX Two Math\", \"Times New Roman\", serif",
+      "sub_text": [
+        "ε,e",
+        "2j,2n"
+      ],
+      "sub_font_px": [
+        7,
+        7
+      ],
+      "overflow": false
+    },
+    "overflow_expansion_ui": true,
+    "column_flow_layout_ui": true,
+    "rotated_margin_typography_ui": true,
+    "text_replacement_lifecycle_ui": true,
+    "title_heading_ui": {
+      "pages": 12,
+      "screenshots": 48,
+      "protected_pixels_unchanged": true
+    }
+  },
+  "limits": [
+    "No online translation service was called during this verification.",
+    "The candidate XPI was not automatically installed into Zotero.",
+    "Final acceptance should retranslate the user's reported JHEP/physics pages in real Zotero."
+  ]
+}

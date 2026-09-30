@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10162f">
+  <title>TwinText for Zotero · 小双对照翻译 | 把论文读、译、排、导出串起来</title>
+  <meta name="description" content="在 Zotero 里对照翻译整篇论文。TwinText 按原 PDF 版式还原译文，保护公式与引用，支持阅读排列、字号行距调节、自选翻译服务，以及 PDF、Zotero 笔记和离线 HTML 导出。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="TwinText for Zotero · 小双对照翻译">
+  <meta property="og:description" content="在 Zotero 里，对照翻译整篇论文。版式还原、公式保护、阅读排版与笔记导出。">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="page-glows" aria-hidden="true">
+    <img class="bg-violet" src="assets/bg-violet.svg" alt="">
+    <img class="bg-cyan" src="assets/bg-cyan.svg" alt="">
+    <img class="bg-brand" src="assets/bg-brand.svg" alt="">
+    <img class="bg-cyan-2" src="assets/bg-cyan-2.svg" alt="">
+    <img class="bg-export" src="assets/bg-export.svg" alt="">
+  </div>
+  <header class="nav container" data-node-id="32:35">
+    <a class="brand" href="./" aria-label="TwinText 首页">
+      <img src="assets/logo.png" alt="" width="44" height="44">
+      <span><strong>TwinText</strong><small>for Zotero</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="打开导航菜单"><span></span><span></span><span></span></button>
+    <nav id="main-nav" aria-label="主导航">
+      <a href="#features">功能全览</a><a href="#comparison">对照翻译</a><a href="#reading">阅读与排版</a><a href="#export">导出与笔记</a>
+    </nav>
+    <a class="button primary nav-download" href="download.html">下载 TwinText</a>
+  </header>
+  <main id="main" class="container">
+    <section class="hero dark" data-node-id="32:45" aria-labelledby="hero-title">
+      <img class="decoration hero-glow" src="assets/hero-glow.svg" alt="">
+      <img class="decoration hero-cyan" src="assets/hero-cyan.svg" alt="">
+      <div class="hero-copy">
+        <span class="pill cyan-text">TwinText for Zotero · 小双对照翻译</span>
+        <h1 id="hero-title">在 Zotero 里，<br>对照翻译整篇论文。</h1>
+        <p class="lead">TwinText 是面向学术 PDF 的 Zotero 对照翻译与研究阅读插件。翻译全文、当前页或指定页，按原页面还原标题、双栏、公式与引用；支持多种对照排列、阅读外观调节、自选翻译服务，并把结果导出为 PDF、Zotero 笔记或离线 HTML。</p>
+        <div class="pills"><span class="pill">1:1 对照还原</span><span class="pill">阅读排列可调</span><span class="pill">笔记 / PDF / HTML 导出</span></div>
+        <div class="actions"><a class="button primary" href="download.html">下载 TwinText</a><a class="button secondary" href="#comparison">查看 1:1 还原</a></div>
+        <p class="small muted">从阅读到笔记导出，一条工作流完成。当前公开下载以插件更新源为准；部分进阶功能仍在候选版本验证中。</p>
+      </div>
+      <div class="product-visual">
+        <div class="product-frame" data-node-id="32:64"><img src="assets/product.png" alt="TwinText 插件真实设置界面，展示翻译服务和阅读选项" fetchpriority="high"></div>
+        <div class="product-tag"><strong>不用把论文拆散到多个工具里</strong><p>原文、译文、阅读位置、排版设置和导出结果，都留在 Zotero 的论文阅读流程里。</p></div>
+      </div>
+    </section>
+    <section class="intro" aria-labelledby="why-title">
+      <p class="eyebrow">WHY TWINTEXT</p>
+      <h2 id="why-title">把整篇论文的读、译、排、导出，<br class="desktop-break">串成一条顺手的工作流</h2>
+      <p class="section-intro">选择翻译范围与粒度，决定原译文怎么排列，调字号与行距，暂停或继续长任务，最后把阅读结果沉淀成可以继续使用的文件与笔记。</p>
+      <div class="benefits grid four">
+        <article class="benefit"><span class="index">01</span><h3>对照读，少找句</h3><p>原文与译文保持同页、同段和相近位置，核对术语、引用和上下文时，少些来回搜索。</p></article>
+        <article class="benefit"><span class="index violet-text">02</span><h3>版式还原，上下文不丢</h3><p>标题、双栏、段落、图表区域与页面节奏尽量按原 PDF 保留，译文仍然属于原来的论文。</p></article>
+        <article class="benefit"><span class="index teal-text">03</span><h3>公式与引用保持可读</h3><p>独立公式、行内数学片段、编号与引用被识别并保护，降低被翻译模型改写或打乱的风险。</p></article>
+        <article class="benefit"><span class="index green-text">04</span><h3>读完还能继续用</h3><p>导出为 PDF、可编辑 Zotero 笔记或离线 HTML，让阅读所得进入后续整理与写作。</p></article>
+      </div>
+    </section>
+    <section id="comparison" class="section comparison" data-node-id="32:91" aria-labelledby="comparison-title">
+      <p class="eyebrow">PDF 对照翻译 · 1:1 版式还原</p>
+      <h2 id="comparison-title">原文与译文一屏对应，<br class="mobile-break">熟悉的论文版式仍在</h2>
+      <p class="section-intro">TwinText 以原 PDF 的字符位置与版面区域为约束，把译文重新放回对应页面。左右对照时，按相同页码、段落结构和页面位置阅读；配合原译联动，直接核对每一段、每个引用和公式。</p>
+      <div class="pills"><span class="pill">原文 / 译文一屏对照</span><span class="pill">同页同段快速核对</span><span class="pill">双栏 / 标题 / 公式保留</span><span class="pill">原译联动滚动</span></div>
+      <figure class="comparison-figure">
+        <button class="image-button" type="button" data-lightbox="assets/comparison.png" data-caption="真实使用实例：Zotero 中原文与 TwinText 译文左右对照阅读" aria-label="放大查看完整对照翻译实例">
+          <img src="assets/comparison.png" alt="同一论文的完整左右对照实例：左侧中文译文与右侧英文原文的双栏、绿色标题和引用位置对应" width="1768" height="1235" loading="lazy">
+          <span class="zoom-hint">点击查看原图</span>
+        </button>
+        <figcaption>真实使用实例：Zotero 中原文与 TwinText 译文左右对照阅读</figcaption>
+      </figure>
+    </section>
+    <section id="quality" class="section proof dark" data-node-id="32:241" aria-labelledby="quality-title">
+      <img class="decoration proof-glow" src="assets/proof-glow.svg" alt="" loading="lazy">
+      <p class="eyebrow">还原度背后 · 持续打磨的页面算法</p>
+      <h2 id="quality-title">现在看到的高还原度，<br>是一页一页“磨”出来的</h2>
+      <p class="section-intro">PDF 里的一行字，可能由多个字体、基线和碎片拼成。译文一变长，标题、双栏、脚注与公式就会相互挤占。我们反复把真实论文中的问题转成回归样例：追踪字符几何、约束空白边界、还原字号行距，再回到整页，检查这次修复是否影响了其他内容。</p>
+      <div class="stats grid three">
+        <article class="stat"><p class="number">16 篇 · 265 页</p><h3>真实论文开发回放</h3><p>从标题、双栏到旋转表格，用不同版面检验同一套规则。</p></article>
+        <article class="stat"><p class="number">611 / 611</p><h3>1.0.35 历史自动化检查</h3><p>覆盖翻译、排版与公式保护链路，逐步守住已修复的问题。</p></article>
+        <article class="stat"><p class="number">48 张 · 24 组</p><h3>截图与额外对齐校验</h3><p>1.0.3 的 12 页浏览器回放，从文字结果追到页面位置。</p></article>
+      </div>
+      <h3 class="iteration-title">每发现一个真实问题，就让下一次还原多一层把握</h3>
+      <ol class="iteration"><li><b>01</b><span>收集真实页面<br>复现问题位置</span></li><li><b>02</b><span>拆解字体与几何<br>定位边界条件</span></li><li><b>03</b><span>调整识别与排版<br>增加保护约束</span></li><li><b>04</b><span>整页重新回放<br>保留回归检查</span></li></ol>
+      <p class="proof-footnote">数据来自不同历史阶段的开发验证，不是独立评测或所有 PDF 的准确率。1:1 表示按原页面结构还原的目标，复杂字体、扫描件和极端长译文仍可能出现差异。这里的积累是规则、算法与回归样例的持续迭代，不代表训练了自有大模型。<a href="evidence.html">查看测试范围与记录 →</a></p>
+    </section>
+    <section id="formula" class="section formula dark" data-node-id="32:105" aria-labelledby="formula-title">
+      <img class="decoration math-glow" src="assets/math-glow.svg" alt="" loading="lazy">
+      <div class="formula-copy">
+        <p class="eyebrow">公式混编 · 数学内容保护</p>
+        <h2 id="formula-title">文字可以翻，<br>公式不要变</h2>
+        <p class="section-intro">论文里最容易出错的，往往是夹在句子中的一个变量、一个下标。TwinText 在翻译前识别数学片段，保护独立公式与行内表达式，再把译文和原数学内容按顺序组合回来。</p>
+        <div class="pills"><span class="pill">行内 / 独立公式</span><span class="pill">变量与上下标</span><span class="pill">编号与引用</span><span class="pill">源样式保护</span></div>
+        <div class="formula-demo"><p class="small cyan-text">文字与公式混排示意</p><div class="equations" aria-label="y 帽等于 sigma 括号 W x 下标 t 加 b；L 等于负的 y 下标 i 乘以 log y 帽下标 i 的和"><div>ŷ = σ(Wx<sub>t</sub> + b)</div><div>L = −Σ y<sub>i</sub> log(ŷ<sub>i</sub>)</div></div><p class="small">翻译解释模型的自然语言，保留表达模型的符号。识别到的数学片段会参与完整性校验；当服务改动保护标记时，可退回只翻译自然语言片段。</p></div>
+      </div>
+      <figure><button class="image-button" type="button" data-lightbox="assets/formula.png" data-caption="真实 PDF 页面中的公式混排细节" aria-label="放大查看公式混排实例"><img src="assets/formula.png" alt="论文真实页面：自然语言段落与独立公式、编号及行内数学符号混排" width="918" height="1188" loading="lazy"><span class="zoom-hint">点击查看公式细节</span></button><figcaption>真实 PDF 页面实例 · 数学结构与自然语言分别处理</figcaption></figure>
+    </section>
+    <section id="features" class="section capabilities" data-node-id="33:44" aria-labelledby="features-title">
+      <p class="eyebrow">功能全览 · 从开始翻译到读完一篇</p>
+      <h2 id="features-title">不止翻译文字，<br>也照顾阅读中的每一步</h2>
+      <p class="section-intro">从一段难懂的内容，到一篇需要深入整理的论文，按你的任务选择翻译范围、阅读方式和结果去向。</p>
+      <div class="capability-grid grid three">
+        <article class="feature-card"><p class="eyebrow">01 / 翻译范围</p><h3>读到哪里，<br>翻到哪里</h3><p>全文、当前页或指定页范围，配合翻译粒度设置。先处理眼前的问题，再继续整篇阅读。</p></article>
+        <article class="feature-card"><p class="eyebrow">02 / 阅读排列</p><h3>原译文，<br>按习惯摆放</h3><p>左右对照、上下对照、仅看译文；调整译文面板位置，配合原译联动滚动，保持阅读连续。</p></article>
+        <article class="feature-card"><p class="eyebrow">03 / 阅读外观</p><h3>字号行距，<br>自己决定</h3><p>选择字体、阅读密度，调节字号与行距。让高密度论文内容适应屏幕和你的阅读习惯。</p></article>
+        <article class="feature-card"><p class="eyebrow">04 / 内容保护</p><h3>该翻的翻，<br>该留的保留</h3><p>区分正文、图表、公式、页边信息和引用区域；通过过滤与保护规则，减少错误覆盖。</p></article>
+        <article class="feature-card"><p class="eyebrow">05 / 任务管理</p><h3>长任务，<br>也能从容处理</h3><p>暂停、继续与回到原文；按服务条件选择 1、2、3、4、6 或 8 路并发，复用已有译文缓存。</p></article>
+        <article class="feature-card"><p class="eyebrow">06 / 解析与服务</p><h3>按需增强，<br>按需接入</h3><p>标准解析、可选本地版面增强和自定义翻译接口分开配置，适应论文复杂度与现有服务。</p></article>
+      </div>
+    </section>
+    <section id="services" class="section services" data-node-id="32:123" aria-labelledby="services-title">
+      <p class="eyebrow">翻译模式 · 服务选择权在你手里</p>
+      <h2 id="services-title">用官方服务，<br class="mobile-break">也能接入自己的翻译 API</h2>
+      <p class="section-intro">版式还原负责让论文保持可读，翻译服务负责生成译文。你可以按授权套餐使用 TwinText 官方翻译，也可以接入已经在使用的服务。</p>
+      <div class="service-cards grid two">
+        <article class="service-card"><span class="pill">统一配置 · 官方翻译</span><h3>TwinText 官方服务</h3><p>激活包含官方翻译权益的授权后，在插件内选择服务。服务地址与 API Key 由后台管理，减少首次配置步骤。</p><ul class="service-points"><li>在插件内查看套餐与本月额度</li><li>无需在本机填写官方服务的 API Key</li><li>可用权益和额度以实际授权状态为准</li><li>从设置、翻译到阅读，沿用同一条工作流</li></ul><p class="service-audience">适合希望减少接口配置、集中开始阅读的用户。</p></article>
+        <article class="service-card"><span class="pill">自由接入 · 最多 5 个自定义接口</span><h3>使用你自己的服务</h3><p>支持 OpenAI 兼容接口、DeepL、小牛翻译与 Google Cloud Translation；也可通过 Translate for Zotero 兼容接入现有服务。</p><ul class="service-points"><li>按协议填写服务 URL、API Key 和所需模型名</li><li>OpenAI 兼容接口可设置 Temperature 与 token 上限</li><li>保存配置前后均可进行连接测试</li><li>API Key 保存在 Zotero 凭据管理器中</li></ul><p class="service-audience">适合已有 API、需要更换模型或管理多个接口的用户。</p></article>
+      </div>
+      <p class="service-note">插件授权与第三方 API 用量是两件事；使用自有 API 时，服务可用性、额度与费用由对应提供方决定。翻译文本会发送至你选择的服务，本地版面解析不等于翻译全程离线。</p>
+    </section>
+    <section id="reading" class="section reading" data-node-id="32:148" aria-labelledby="reading-title">
+      <p class="eyebrow">阅读与排版 · 让原文和译文各就其位</p>
+      <h2 id="reading-title">怎么对照、怎么排列，<br>都按你的阅读节奏来</h2>
+      <p class="section-intro">宽屏左右核对，窄屏上下阅读，熟悉内容时只看译文。配合位置联动、范围选择和缓存，不必每次从头开始。</p>
+      <div class="mode-grid grid three">
+        <button class="mode-card" type="button" data-reader-layout="horizontal" aria-pressed="true" aria-controls="reader-preview"><img src="assets/dot-indigo.svg" alt=""><h3>左右对照</h3><p>原文与译文并排阅读，快速核对术语、数字和同段表达。点击体验下方示意。</p></button>
+        <button class="mode-card" type="button" data-reader-layout="vertical" aria-pressed="false" aria-controls="reader-preview"><img src="assets/dot-violet.svg" alt=""><h3>上下对照</h3><p>调整为上下排列，让每个面板拥有更完整的横向阅读空间。点击切换示意。</p></button>
+        <button class="mode-card" type="button" data-reader-layout="translation" aria-pressed="false" aria-controls="reader-preview"><img src="assets/dot-cyan.svg" alt=""><h3>仅看译文</h3><p>集中阅读译文，需要核对时再切回对照模式。点击查看译文视图。</p></button>
+        <article class="mode-card"><img src="assets/dot-indigo.svg" alt=""><h3>原译联动</h3><p>在插件中滚动一侧，对应页面随之移动，减少反复查找页码与阅读位置。</p></article>
+        <article class="mode-card"><img src="assets/dot-violet.svg" alt=""><h3>翻译范围可选</h3><p>从当前页或指定页开始，也能处理全文。按本次阅读目标安排任务。</p></article>
+        <article class="mode-card"><img src="assets/dot-cyan.svg" alt=""><h3>缓存继续使用</h3><p>符合当前配置的已有译文可复用；需要重译时，按任务清理或重新处理。</p></article>
+      </div>
+      <div class="reading-controls"><h3>调出你舒服的阅读样式</h3><p>下面是可操作的网页示意，展示排列与样式变化；真实 PDF 翻译请在 Zotero 插件内使用。</p>
+        <div class="control-grid grid three">
+          <div class="control"><label for="reader-pane">译文位置</label><select id="reader-pane"><option value="secondary">第二面板</option><option value="primary">第一面板</option></select><small>左 / 右或上 / 下随排列改变</small></div>
+          <div class="control"><label for="reader-density">阅读密度</label><select id="reader-density"><option value="standard">标准留白</option><option value="compact">紧凑</option><option value="relaxed">宽松</option></select><small>调节面板内容留白</small></div>
+          <div class="control"><label for="reader-font">译文字体</label><select id="reader-font"><option value="system">跟随系统</option><option value="serif">衬线字体</option><option value="sans">无衬线字体</option></select><small>实际字体取决于本机安装</small></div>
+          <div class="control"><label class="range-label" for="reader-size">字号比例 <output for="reader-size">100%</output></label><input id="reader-size" type="range" min="70" max="160" value="100" step="5"><small>70% — 160%</small></div>
+          <div class="control"><label class="range-label" for="reader-line">行距比例 <output for="reader-line">100%</output></label><input id="reader-line" type="range" min="80" max="180" value="100" step="5"><small>80% — 180%</small></div>
+        </div>
+        <div id="reader-preview" class="reading-demo"><div class="demo-bar"><span>阅读排列交互示意</span><span id="layout-status" role="status">左右对照 · 排列演示</span></div><div class="demo-pages" data-layout="horizontal" data-pane="secondary" data-density="standard" tabindex="0" role="region" aria-label="阅读排列预览"><article class="demo-page demo-source" lang="en"><h4>Original · Reading with context</h4><p>A paper is more than a sequence of sentences. Its headings, equations and references help us understand how an argument develops.</p><p>Keeping the original and translation together makes it easier to compare terminology and return to the evidence.</p></article><article class="demo-page demo-translation"><h4>译文 · 连同上下文一起阅读</h4><p>论文不只是一串句子。标题、公式与参考文献，共同帮助我们理解论证如何展开。</p><p>把原文与译文放在一起，让术语核对与证据回溯更顺手，也让阅读能够沿着熟悉的页面继续。</p></article></div></div>
+        <p class="reader-mobile-hint small">窄屏下，左右对照可横向滑动查看，也可以切换为上下对照。</p>
+      </div>
+    </section>
+    <section id="export" class="section exports" data-node-id="33:72" aria-labelledby="export-title">
+      <p class="eyebrow">导出与笔记 · 让阅读成果继续流动</p>
+      <h2 id="export-title">读完之后，<br>把译文带进你的研究资料里</h2>
+      <p class="section-intro">已有翻译结果可以继续用于整理、分享与写作。按需要导出 PDF、生成 Zotero 笔记，或保存可离线打开的 HTML。</p>
+      <div class="export-flow"><strong>选择内容范围 → 复用已有译文 → 保存为文件或笔记</strong><p>对尚未完成的范围，可根据导出选项等待任务；不必为了换一种输出格式重新整理整篇内容。</p></div>
+      <div class="export-grid grid three">
+        <article class="feature-card"><p class="eyebrow">PDF / 留存与分享</p><h3>按页整理，<br>方便继续查阅</h3><p>将原文页面图像与按页分组的双语内容组合为 PDF。译文内容会重排，便于留存与分享。</p></article>
+        <article class="feature-card"><p class="eyebrow">ZOTERO 笔记 / 继续编辑</p><h3>让译文成为<br>可编辑的笔记</h3><p>按页面组织原译文，关联到对应文献条目；继续摘录、补充理解与整理研究笔记。</p></article>
+        <article class="feature-card"><p class="eyebrow">离线 HTML / 随时打开</p><h3>离开阅读器，<br>仍然可以读</h3><p>把已有双语内容保存为 HTML 文件，在浏览器里离线查阅，方便归档与进一步处理。</p></article>
+      </div>
+      <div class="export-note"><h3>阅读时的版式还原，和导出后的内容整理，各有侧重</h3><p>插件阅读器以原页面几何为约束展示译文；当前 PDF 导出使用原文页图像与按页重排的双语内容，不等同于导出一份像素级 1:1 的译文 PDF。导出会遵循所选范围与过滤规则，原始 PDF 不会被覆盖。</p></div>
+    </section>
+    <section id="workflow" class="section workflow" data-node-id="32:176" aria-labelledby="workflow-title">
+      <p class="eyebrow">工作流 · 从轻量开始，按需要增强</p>
+      <h2 id="workflow-title">复杂论文慢慢读，<br>工具替你照顾流程</h2>
+      <p class="section-intro">先用适合自己的配置开始，再根据文档结构增加解析能力。翻译服务、版面解析与阅读控制分别设置，减少不必要的折腾。</p>
+      <div class="workflow-grid grid three">
+        <article class="workflow-card"><h3>标准解析，开箱开始</h3><p>基于 PDF 的文字、字体与页面几何进行处理。内置 PP-DocLayoutV2 前端 WASM 方案可用于版面增强，无需为它单独安装 Python。</p><strong>先把当前论文读起来</strong></article>
+        <article class="workflow-card"><h3>复杂版面，按需增强</h3><p>可选接入 PP-DocLayoutV3、Heron 或 MinerU 等本地引擎。模型下载、运行环境与硬件需求取决于所选方案。</p><strong>保留对解析方式的选择</strong></article>
+        <article class="workflow-card"><h3>任务进度，始终可控</h3><p>按当前页安排优先处理，暂停或继续翻译，随时返回原文。配合并发、缓存和过滤设置，适应长篇阅读。</p><strong>让等待不打断阅读节奏</strong></article>
+      </div>
+    </section>
+    <section id="versions" class="section history" data-node-id="32:205" aria-labelledby="versions-title">
+      <div><p class="eyebrow">版本更新 · 每一步都有来处</p><h2 id="versions-title">把真实阅读中的问题，<br>变成下一版的改进</h2><p class="section-intro">从字号与页边距，到原译联动、上下标与数学结构，持续收敛具体页面中的问题。</p><p class="small muted" style="margin-top:18px">以下包含开发迭代记录。1.0.39 为待实机验收的候选版，不标作稳定发行版。</p><a class="text-link" href="changelog.html">查看完整更新记录 →</a></div>
+      <ol class="release-list">
+        <li class="release"><div class="release-heading"><img src="assets/dot-indigo.svg" alt=""><span class="release-version">1.0.39</span><h3>数学结构与术语识别</h3><span class="pill">候选版</span></div><p>补齐根号、上下标、分式等结构识别，并减少普通术语被误判为公式。</p></li>
+        <li class="release"><div class="release-heading"><img src="assets/dot-violet.svg" alt=""><span class="release-version">1.0.35</span><h3>公式混编与不可变数学片段</h3></div><p>保护数学片段的顺序、上下标和源样式，处理服务改写保护标记的情况。</p></li>
+        <li class="release"><div class="release-heading"><img src="assets/release-dot.svg" alt=""><span class="release-version">1.0.34</span><h3>页边距与空白边界</h3></div><p>在原文正文范围内利用空白，限制译文向页边与相邻区域扩展。</p></li>
+        <li class="release"><div class="release-heading"><img src="assets/release-dot.svg" alt=""><span class="release-version">1.0.33</span><h3>原译联动与参考文献对齐</h3></div><p>减少滚动回弹，修复短参考文献结尾与出版信息栏的对齐问题。</p></li>
+        <li class="release"><div class="release-heading"><img src="assets/release-dot.svg" alt=""><span class="release-version">1.0.32 / 31</span><h3>源字号、行距与同列排版</h3></div><p>依据源几何还原文字样式，尝试利用同列空白后再进行有界字号调整。</p></li>
+      </ol>
+    </section>
+    <section class="section cta dark" data-node-id="32:192" aria-labelledby="cta-title">
+      <img class="decoration cta-glow" src="assets/cta-glow.svg" alt="" loading="lazy"><img class="decoration cta-cyan" src="assets/cta-cyan.svg" alt="" loading="lazy">
+      <img class="cta-logo" src="assets/logo.png" alt="TwinText" width="72" height="72" loading="lazy">
+      <h2 id="cta-title">把 Zotero 变成从对照翻译到笔记沉淀的<br class="desktop-break">一体化论文阅读工作台</h2>
+      <p class="section-intro">保留论文的结构，选择适合自己的翻译服务，调出舒服的阅读样式，再把理解沉淀成可以继续使用的资料。</p>
+      <div class="actions"><a class="button primary" href="download.html">下载与安装 TwinText</a><a class="button secondary" href="#features">再次查看功能</a></div>
+    </section>
+  </main>
+  <footer class="footer container"><div><strong>TwinText for Zotero · 小双对照翻译</strong><p>PDF 对照翻译 · 版式还原 · 阅读排版 · 笔记与文件导出</p></div><nav aria-label="页脚导航"><a href="#features">功能全览</a><a href="#reading">阅读与排版</a><a href="#export">导出与笔记</a><a href="changelog.html">更新记录</a></nav><div class="icp-record"><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">湘ICP备2026044638号-1</a></div></footer>
+  <dialog class="lightbox" aria-label="产品截图放大查看"><button class="lightbox-close button" type="button" aria-label="关闭大图">关闭 ×</button><figure><img src="assets/comparison.png" alt=""><figcaption></figcaption></figure></dialog>
+</body>
+</html>

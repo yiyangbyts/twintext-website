@@ -1,0 +1,43 @@
+{
+  "version": "1.0.39",
+  "date": "2026-09-30",
+  "tests": {
+    "node_full": {
+      "passed": 629,
+      "failed": 0
+    },
+    "runtime_modules": 34,
+    "license_checks": true,
+    "formula_font_regression": {
+      "passed": 25,
+      "failed": 0
+    },
+    "formula_engine": {
+      "passed": 2,
+      "failed": 0
+    },
+    "style_regression": {
+      "passed": 7,
+      "failed": 0
+    },
+    "translation_regression": {
+      "passed": 188,
+      "failed": 0
+    },
+    "packaged_auth": {
+      "passed": 7,
+      "failed": 0
+    },
+    "diff_check": true,
+    "immutable_math_ui": {
+      "status": "not_run",
+      "reason": "playwright module is not installed; Node reported PLAYWRIGHT_MISSING"
+    }
+  },
+  "limits": [
+    "No online translation service was called during this verification.",
+    "The rebuilt XPI was not automatically installed into Zotero.",
+    "Playwright UI verification was not run because the dependency is absent.",
+    "Final acceptance should retranslate the NLSM paper in real Zotero."
+  ]
+}
